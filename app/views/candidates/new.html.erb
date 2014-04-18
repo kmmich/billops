@@ -1,0 +1,15 @@
+<%= form_for :candidate, url: candidates_path do |f| %>
+  <p>
+    <%= f.label :FirstName %><br>
+    <%= f.text_field :FirstName %>
+  </p>
+ 
+  <p>
+    <%= f.label :LastName %><br>
+    <%= f.text_field :LastName %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

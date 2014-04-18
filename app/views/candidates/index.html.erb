@@ -1,0 +1,15 @@
+<h1>Listing Candidates</h1>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @candidates.each do |candidate| %>
+    <tr>
+      <td><%= candidate.FirstName %></td>
+      <td><%= candidate.LastName %></td>
+    </tr>
+  <% end %>
+</table>
