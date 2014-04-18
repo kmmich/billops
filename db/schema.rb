@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140418204056) do
+ActiveRecord::Schema.define(version: 20140418211538) do
 
   create_table "candidates", force: true do |t|
     t.string   "FirstName"
     t.string   "LastName"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "firm"
   end
 
 end
