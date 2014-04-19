@@ -1,8 +1,12 @@
 class CandidatesController < ApplicationController
 
-	def new 
+	attr_accessor :FirstName, :LastName, :EmailAddress, :PhoneNumber
 
-	end
+	#def initialize(candidate_params)
+	#	@FirstName = candidate_params[:FirstName]
+	#	@LastName = candidate_params[:LastName]
+#
+#	end
 
 	def create
 		@candidate = Candidate.new(candidate_params)
@@ -19,12 +23,8 @@ class CandidatesController < ApplicationController
 		@candidates = Candidate.all
 	end
 
-
 	private 
 		def candidate_params
-			params.require(:candidate).permit(:FirstName, :LastName)
-		end	
-
-
-		
+			params.require(:candidate).permit(:FirstName, :LastName, :EmailAddress, :PhoneNumber)
+		end
 end

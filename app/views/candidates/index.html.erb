@@ -2,14 +2,18 @@
  
 <table>
   <tr>
-    <th>Title</th>
-    <th>Text</th>
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>EmailAddress</th>
+    <th>PhoneNumber</th>
   </tr>
  
   <% @candidates.each do |candidate| %>
     <tr>
       <td><%= candidate.FirstName %></td>
       <td><%= candidate.LastName %></td>
+      <td><%= candidate.EmailAddress %></td>
+      <td><%= candidate.PhoneNumber %></td>
     </tr>
   <% end %>
 </table>

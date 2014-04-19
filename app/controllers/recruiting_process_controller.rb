@@ -1,0 +1,2 @@
+class RecruitingProcessController < ApplicationController
+end
