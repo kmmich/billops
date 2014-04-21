@@ -1,4 +1,11 @@
 class CycleController < ApplicationController
+
+	attr_accessor :creator
+
+	def initialize
+
+
+	end
 			
 	
 	def create

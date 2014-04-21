@@ -21,6 +21,7 @@ class CandidatesController < ApplicationController
 
 	def index
 		@candidates = Candidate.all
+		render :index
 	end
 
 	private 
