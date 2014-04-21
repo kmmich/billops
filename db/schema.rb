@@ -11,11 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140421002044) do
+ActiveRecord::Schema.define(version: 20140421002815) do
 
   create_table "add_start_date_to_employer_h_istories", force: true do |t|
     t.datetime "StartDate"
     t.datetime "EndDate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "candidate_evaluation_forms", force: true do |t|
+    t.datetime "dt"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
