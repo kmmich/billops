@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d0fc369-8d5b-41bf-b252-a37eaaa76825" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/candidate.rb" afterPath="$PROJECT_DIR$/app/models/candidate.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8d0fc369-8d5b-41bf-b252-a37eaaa76825" name="Default" comment="" />
     <ignored path="billops_app.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -704,100 +701,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/candidate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07981221" vertical-offset="0" max-vertical-offset="426">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://RailsDependency/#billops_app">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>RailsDependency</ID>
           <OriginalElement>#billops_app</OriginalElement>
           <nodes>
-            <node x="0.0" y="642.5">User</node>
-            <node x="10.0" y="79.125">Candidate</node>
-            <node x="455.66958424507663" y="424.45258935083876">RecruitingProcess</node>
-            <node x="2054.5375638220285" y="357.41940189642594">CandidateEvaluationForm</node>
-            <node x="348.1797957695114" y="635.3781911013858">EmployerHistory</node>
-            <node x="1575.0" y="150.0">CandidatePerformanceOnRound</node>
-            <node x="1108.5" y="0.0">Schools</node>
-            <node x="1565.3884026258206" y="356.7392414296134">EvaluationForm</node>
-            <node x="689.5" y="10.0">EducationHistory</node>
-            <node x="923.3347921225384" y="361.81929248723554">FunnelRound</node>
-            <node x="174.0" y="642.5">Cycle</node>
-            <node x="2009.9781181619264" y="540.362858619013">CandidateScore</node>
-            <node x="981.4409190371993" y="241.3459153902261">ProcessFunnel</node>
-            <node x="1578.6425966447848" y="533.3143690736689">EvaluationElement</node>
+            <node x="" y="">User</node>
+            <node x="" y="">Candidate</node>
+            <node x="" y="">RecruitingProcess</node>
+            <node x="" y="">CandidateEvaluationForm</node>
+            <node x="" y="">EmployerHistory</node>
+            <node x="" y="">CandidatePerformanceOnRound</node>
+            <node x="" y="">Schools</node>
+            <node x="" y="">EvaluationForm</node>
+            <node x="" y="">EducationHistory</node>
+            <node x="" y="">FunnelRound</node>
+            <node x="" y="">Cycle</node>
+            <node x="" y="">CandidateScore</node>
+            <node x="" y="">ProcessFunnel</node>
+            <node x="" y="">EvaluationElement</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="Candidate" target="RecruitingProcess">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="FunnelRound" target="EvaluationForm">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Candidate" target="CandidatePerformanceOnRound">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="EvaluationForm" target="CandidateEvaluationForm">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="RecruitingProcess" target="ProcessFunnel">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="CandidateEvaluationForm" target="CandidateScore">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Candidate" target="EmployerHistory">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Candidate" target="ProcessFunnel">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="EducationHistory" target="Schools">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="RecruitingProcess" target="FunnelRound">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="EvaluationForm" target="EvaluationElement">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="EvaluationElement" target="CandidateScore">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="FunnelRound" target="CandidatePerformanceOnRound">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Candidate" target="EducationHistory">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
+          <edges />
           <settings layout="Hierarchic Group" zoom="0.8209580838323354" x="1536.471188913202" y="406.66553603590853" />
           <SelectedNodes />
           <Categories>
             <Category>Association fields</Category>
             <Category>Migration fields</Category>
           </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/candidate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07981221" vertical-offset="0" max-vertical-offset="426">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
