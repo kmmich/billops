@@ -37,7 +37,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data'
 gem 'bcrypt-ruby', '3.1.2'
-#gem 'bootstrap-saas', '2.3.2.0'
+gem 'bootstrap-sass', '3.1.1.0'
 
 
 group :development, :test do
